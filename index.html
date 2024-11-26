@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pub Crawl Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Spin the Wheel - Pub Crawl</h1>
+    <div id="wheel-container">
+      <canvas id="wheel"></canvas>
+      <button id="spin-btn">Spin!</button>
+    </div>
+    <div id="results-table">
+      <h2>Challenges This Round</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Username</th>
+            <th>Challenge</th>
+          </tr>
+        </thead>
+        <tbody id="results-body">
+          <!-- Populated dynamically -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
