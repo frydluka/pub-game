@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #2b2b2b;
+  color: #f1f1f1;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1, h2 {
+  font-family: 'Courier New', monospace;
+  color: #e63946;
+}
+
+button {
+  background: #e63946;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #a72534;
+}
+
+#wheel-container {
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+#results-table, #challenge-list {
+  margin: 20px;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #f1f1f1;
+}
+
+th, td {
+  padding: 10px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #e63946;
+  border-radius: 5px;
+  width: calc(100% - 20px);
+}
